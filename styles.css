@@ -125,8 +125,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -164,10 +164,29 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
+.skills__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills__block-item {
+  width: 30%;
+}
+
+.skills__block-item:nth-child(4) {
+  margin-top: 30px;
+}
 
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+  font-size: 14px;
+}
+.skills__block-span {
+  color: var(--durability-text-color);
+}
+.skills__block-ul {
+  margin-left: 25px;
 }
 
 /* EXPERIENCE AND ADDITION STYLES */
